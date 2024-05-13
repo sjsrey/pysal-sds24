@@ -1,0 +1,30 @@
+name: carto_sdsc24
+channels:
+  - conda-forge
+dependencies:
+  - python =3.11
+  - bokeh
+  - geopandas
+  - descartes
+  - folium
+  - ipywidgets
+  - jupyterlab
+  - pysal
+  - nbconvert
+  - networkx
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - hvplot
+  - holoviews
+  - geoviews
+  - watermark
+  - rasterio
+  - contextily
+  - geosnap>=0.13.1
+  - pandana
+  - h3-py
+  - ipython
+  - pip
+  - pip: # get dev esda
+    - git+https://github.com/pysal/esda.git
